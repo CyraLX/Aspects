@@ -1,0 +1,37 @@
+name: "Feature Suggestion"
+description: Propose a new idea or improvement.
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Feature Suggestion
+
+        We welcome any suggestions for the Datapack or Resourcepack and we will take it into consideration!
+
+  - type: input
+    id: title
+    attributes:
+      label: Feature Title
+      description: Give your feature a clear, descriptive title.
+      placeholder: "Example: 'Add X thing with Y'"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Feature Description
+      description: Describe your idea and how it would improve the project.
+      placeholder: |
+      render: markdown
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Checklist
+      options:
+        - label: I have verified this feature has not been requested already.
+          required: true
