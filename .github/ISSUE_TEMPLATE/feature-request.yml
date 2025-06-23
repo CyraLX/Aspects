@@ -9,20 +9,11 @@ body:
 
         We welcome any suggestions for the Datapack or Resourcepack and we will take it into consideration!
 
-  - type: input
-    id: title
-    attributes:
-      label: Feature Title
-      description: Give your feature a clear, descriptive title.
-      placeholder: "Example: 'Add X thing with Y'"
-    validations:
-      required: true
-
   - type: textarea
-    id: description
+    id: suggestion
     attributes:
-      label: Feature Description
-      description: Describe your idea and how it would improve the project.
+      label: Feature Suggestion
+      description: Describe your idea.
       render: markdown
     validations:
       required: true
