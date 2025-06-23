@@ -1,8 +1,8 @@
 [submodule "datapack"]
 	path = datapack
 	url = https://github.com/CyraLX/Aspects-Datapack.git
-    	branch = main
+	branch = main
 [submodule "resourcepack"]
 	path = resourcepack
 	url = https://github.com/CyraLX/Aspects-Resource-Pack.git
-    	branch = main
+	branch = main
