@@ -7,7 +7,7 @@ This is the main hub for the **Aspects** project: a Minecraft Datapack & Resourc
 - [Aspects Datapack](https://github.com/CyraLX/Aspects-Datapack)
 - [Aspects Resourcepack](https://github.com/CyraLX/Aspects-Resource-Pack)
 
-## Documentation & Issue Tracker
+## Issue Tracker
 
 - [Report a Bug or Suggest a Feature](https://github.com/CyraLX/Aspects/issues)
 
