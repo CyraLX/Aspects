@@ -51,12 +51,12 @@ body:
     validations:
       required: true
 
-  - type: input
+  - type: textarea
     id: modification_version
     attributes:
       label: Modification Versions
       description: What version of the modification did you use? If using the mod version, put in just the mod version. If using the datapack version, but in both the datapack and resourcepack versions.
-      placeholder: "Example: R1"
+      placeholder: "Example: Mod 1.2.0 or Datapack 1.2.1; Resourcepack 1.2.1"
     validations:
       required: true
 
